@@ -1,0 +1,65 @@
+.menu-container {
+    position: absolute;
+    width: 440px;
+    height: 310px;
+    left: 1400px;
+    top: 34px;
+    border-radius: 5px;
+}
+
+.menu-container li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.menu-header {
+    position: absolute;
+    width: 440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: black linear-gradient(90.04deg, #2393FF 0.49%, rgba(217, 217, 217, 0) 99.96%);
+    border-radius: 5px 5px 0 0;
+}
+
+.header-title {
+    position: absolute;
+    width: 450px;
+    height: 63px;
+    left: 5px;
+    top: 12px;
+    font-family: 'Hannari', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+.menu-items {
+    position: absolute;
+    top: 102px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li {
+    width: 420px; /* Adjust this width as needed */
+    padding: 10px;
+    color: #fff;
+    background: black linear-gradient(90deg, #7B7070 0%, rgba(20, 20, 20, 0) 2.5%);
+    margin-bottom: 2px;
+    /* Font related area */
+    font-weight: bold;
+    font-family: 'Hannari', sans-serif;
+}
+
+.menu-items li:hover {
+    background-color: #7B7070;
+    box-shadow: black;
+}
+
+@font-face {
+    font-family: 'Hannari';
+    src: local('Hannari');
+}
